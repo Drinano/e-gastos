@@ -1,0 +1,47 @@
+
+p {
+    font-size: 14pt;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#duvidas {
+    font-size: 10pt;
+    left: 1030px;
+    top: 590px;
+    position: fixed;
+}
+
+.modal-container {
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.modal {
+    background: #fff;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #00000070;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: white;
+    height: 20px;
+    width: 40px;
+    padding: 0px;
+    position: fixed;
+    left: 1170px;
+    top: 600px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    display: block;
+}
